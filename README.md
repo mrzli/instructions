@@ -13,5 +13,4 @@
 - Unlinking:
   - Navigate to the project that will use the npm dependency.
   - Execute `npm uninstall --no-save @scope/some-dep && npm install ` to remove the local link.
-  - Navigate to local directory of npm dependency, for example `some-dep`.
-  - Execute `npm unlink` to remove the global link.
+  - Execute (from any directory) `npm unlink @scope/some-dep` to remove the global link.
