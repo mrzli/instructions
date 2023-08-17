@@ -2,6 +2,16 @@
 
 ## Development
 
+### Setting Up Computer for Developement
+
+- Set up git.
+
+```bash
+git config --global user.name "Goran Mržljak"
+git config --global user.email "goran.mrzljak@gmail.com"
+git config --global core.autocrlf input # convert CRLF to LF on commit, but not vice versa
+```
+
 ### Linking Local NPM Project
 
 - See more info [here](https://medium.com/dailyjs/how-to-use-npm-link-7375b6219557).
